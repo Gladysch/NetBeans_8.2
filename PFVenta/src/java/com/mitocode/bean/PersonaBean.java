@@ -13,6 +13,16 @@ public class PersonaBean {
     
     private Persona persona = new Persona();
     private List<Persona> lstPersonas;
+    private String accion;
+
+    public String getAccion() {
+        return accion;
+    }
+
+    public void setAccion(String accion) {
+        this.accion = accion;
+    }
+    
 
     public List<Persona> getLstPersonas() {
         return lstPersonas;
